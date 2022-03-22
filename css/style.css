@@ -1,0 +1,106 @@
+/*========== Pricing Section Css Start ==========*/
+.pricing-section {
+    padding: 50px 0;
+    background: url(../images/section-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.pricing-section-heading {
+    text-align: center;
+}
+
+.pricing-section-heading h2 {
+    color: #ffff;
+}
+
+.pricing-section-heading h1 {
+    color: #fff;
+    font-size: 48px;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin-bottom: 20px;
+    letter-spacing: 1.92px;
+}
+
+.pricing-section-heading p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    width: 523px;
+    letter-spacing: 0.96px;
+    margin: auto;
+}
+
+.pricing-card-section {
+    margin-top: 50px;
+}
+
+.pricing-card {
+    background: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.pricing-card-heading {
+    font-size: 23px;
+    line-height: 26px;
+    color: #0a1821;
+    margin-bottom: 37.5px;
+}
+
+.pricing-card-price strong {
+    font-size: 47px;
+    line-height: 26px;
+}
+
+.pricing-card-price span {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.pricing-card-price {
+    color: #101010;
+}
+
+.pricing-card-feature-list {
+    margin-top: 50px;
+}
+
+.pricing-card-feature-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-card-feature-list ul li {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.32px;
+    color: #777777;
+    padding: 10px;
+    border-top: 1px dashed #e4e4e4;
+    border-bottom: 1px dashed #e4e4e4;
+}
+
+.pricing-card-feature-list ul li:last-child {
+    border-bottom: 0;
+}
+
+.pricing-card-button {
+    margin-top: 20px;
+}
+
+.pricing-card-button .btn {
+    color: #be1e2d;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.56px;
+    border: 1px solid #be1e2d;
+    padding: 14px 20px;
+    background-color: #fff;
+}
+/*========== Pricing Section Css End ==========*/
