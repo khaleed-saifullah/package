@@ -1,3 +1,11 @@
+/*========== Common Css Start ==========*/
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/*========== Common Css Start ==========*/
+
 /*========== Pricing Section Css Start ==========*/
 .pricing-section {
     padding: 50px 0;
@@ -104,3 +112,144 @@
     background-color: #fff;
 }
 /*========== Pricing Section Css End ==========*/
+
+/*========== Login Section Css Start ==========*/
+
+.login-section-top {
+    padding: 120px 0;
+    background: url(../images/section-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.login-section-heading h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    line-height: 75px;
+    color: #fff;
+}
+
+.login-section-form input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding-left: 0;
+}
+
+.login-section-form input::placeholder {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.login-section-form .email-input {
+    margin-bottom: 20px;
+}
+
+.login-section-form .sumbit-btn .btn {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 4px 12px;
+}
+
+.sumbit-btn {
+    text-align: center;
+}
+
+.login-section-form-bottom {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.login-section-form-bottom p {
+    color: #fff;
+}
+
+.login-section-form-bottom p a {
+    color: #3262a6;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.social-login .btn {
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.social-login .btn i {
+    margin-right: 5px;
+}
+
+.fb-login-btn {
+    background: #0081ff;
+}
+
+.google-login-btn {
+    background: #f50d3f;
+}
+
+.login-section-form-bottom p.or {
+    font-size: 18px;
+}
+
+.login-section-form input:focus {
+    background-color: transparent;
+    box-shadow: unset;
+    border-color: #fff;
+    color: #fff;
+}
+
+.login-section-bottom {
+    padding: 20px 0;
+}
+/*========== Login Section Css End ==========*/
+
+/*========== Footer Section Css Start ==========*/
+
+footer {
+    background: #be1e2d;
+    padding: 10px 0;
+}
+
+.footer-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+}
+
+.footer-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-copyright-text p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*========== Footer Section Css End ==========*/
