@@ -33,4 +33,65 @@ $(document).ready(function () {
     $(".header-menu-bar").on("click", function () {
         $(".haeder-bar-menu").toggleClass("open");
     });
+
+    $(".login-section-gallery").slick({
+        infinite: true,
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        // centerMode: true,
+        prevArrow:
+            '<button class="slide-arrow prev-arrow"><i class="fa-solid fa-angles-left"></i></button>',
+        nextArrow:
+            '<button class="slide-arrow next-arrow"><i class="fa-solid fa-angles-right"></i></button>',
+        responsive: [
+            {
+                breakpoint: 2000,
+                settings: {
+                    slidesToShow: 5,
+                    infinite: true,
+                    centerMode: true,
+                },
+            },
+            {
+                breakpoint: 1700,
+                settings: {
+                    slidesToShow: 4,
+                    infinite: true,
+                    centerMode: true,
+                },
+            },
+            {
+                breakpoint: 1365,
+                settings: {
+                    slidesToShow: 3,
+                    infinite: true,
+                    centerMode: true,
+                },
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    infinite: true,
+                    centerMode: true,
+                },
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    infinite: true,
+                    centerMode: true,
+                },
+            },
+            {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 1,
+                    infinite: true,
+                    centerMode: true,
+                },
+            },
+        ],
+    });
 });

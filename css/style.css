@@ -192,7 +192,7 @@ header {
     left: 0;
 }
 
-.header-category-content .slick-track>.slick-slide {
+.header-category-content .slick-track > .slick-slide {
     display: inline-block !important;
     float: none !important;
 }
@@ -218,7 +218,7 @@ header {
     cursor: pointer;
     opacity: 0;
     visibility: hidden;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .haeder-bar-menu::before {
@@ -248,15 +248,15 @@ header {
 .haeder-bar-menu ul li a {
     display: block;
     padding: 10px 20px;
-    color: #747D88;
+    color: #747d88;
     font-size: 14px;
     font-weight: 300;
-    transition: all .1s;
+    transition: all 0.1s;
 }
 
 .haeder-bar-menu ul li a:hover,
 .haeder-bar-menu ul li a.active {
-    background-color: #EFEFEF;
+    background-color: #efefef;
     color: #000;
     font-weight: 400;
 }
@@ -274,25 +274,20 @@ header {
 /*========== Header Css End ==========*/
 
 /*========== Pricing Section Css Start ==========*/
+.pricing-card-section {
+    margin-top: 100px;
+}
+
 .pricing-section {
     padding: 50px 0;
-    background: url(../images/section-bg.png);
-    background-size: cover;
-    background-position: center;
 }
 
 .pricing-section-heading {
     text-align: center;
 }
 
-.pricing-section-heading h2 {
-    color: #ffff;
-}
-
 .pricing-section-heading h1 {
-    color: #fff;
     font-size: 48px;
-    text-transform: uppercase;
     line-height: 48px;
     margin-bottom: 20px;
     letter-spacing: 1.92px;
@@ -301,13 +296,12 @@ header {
 .pricing-section-heading p {
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
     width: 523px;
     letter-spacing: 0.96px;
     margin: auto;
 }
 
-.pricing-card-section {
+.pricing-card-price strong .pricing-card-section {
     margin-top: 50px;
 }
 
@@ -316,6 +310,8 @@ header {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 90px;
+    box-shadow: 0 0 5px 1px #eee;
+    border-radius: 5px;
 }
 
 .pricing-card-heading {
@@ -328,6 +324,7 @@ header {
 .pricing-card-price strong {
     font-size: 47px;
     line-height: 26px;
+    color: #e52d2d;
 }
 
 .pricing-card-price span {
@@ -342,6 +339,7 @@ header {
 
 .pricing-card-feature-list {
     margin-top: 50px;
+    padding: 0 10px;
 }
 
 .pricing-card-feature-list ul {
@@ -378,6 +376,11 @@ header {
     border: 1px solid #be1e2d;
     padding: 14px 20px;
     background-color: #fff;
+    border-radius: 30px;
+}
+
+.pricing-card.active {
+    margin-top: -50px;
 }
 
 /*========== Pricing Section Css End ==========*/
@@ -385,7 +388,7 @@ header {
 /*========== Login Section Css Start ==========*/
 
 .login-section-top {
-    padding: 120px 0;
+    padding: 150px 0;
     background: url(../images/section-bg.png);
     background-size: cover;
     background-position: center;
@@ -476,9 +479,113 @@ header {
 
 .login-section-bottom {
     padding: 20px 0;
+    overflow: hidden;
 }
 
+.login-section-gallery .slick-arrow {
+    border: 0;
+    background: #fff;
+    font-size: 20px;
+    color: #4f4f4f;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    z-index: 2;
+}
+
+.login-section-gallery .slick-arrow.prev-arrow {
+    left: 0;
+    padding: 0;
+}
+
+.login-section-gallery .slick-arrow.next-arrow {
+    right: 0;
+}
+
+.login-section-gallery {
+    position: relative;
+}
+
+.login-section-gallery .slick-slide {
+    margin: 0 20px;
+}
+
+.login-section-gallery .slick-list {
+    margin: 0 -20px;
+}
+
+.login-section-gallery-item img {
+    width: 100%;
+}
 /*========== Login Section Css End ==========*/
+
+/*========== Coming Soon Section Css Start ==========*/
+
+.comingsoon-section {
+    background: url(../images/comingsoon-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.comingsoon-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.comingsoon-image {
+    margin-bottom: 35px;
+}
+
+.comingsoon-content h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 96px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.comingsoon-form input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding-left: 0;
+    width: 410px;
+    margin-bottom: 30px;
+}
+
+.comingsoon-form input::placeholder {
+    color: #fff;
+}
+
+.comingsoon-form form {
+    text-align: center;
+    font-weight: 200;
+}
+
+.btn-comingsoon-subscribe {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 200;
+}
+
+.comingsoon-form input:focus {
+    background-color: transparent;
+    box-shadow: unset;
+    border-color: #fff;
+    color: #fff;
+}
+/*========== Coming Soon Section Css End ==========*/
 
 /*========== Footer Section Css Start ==========*/
 
