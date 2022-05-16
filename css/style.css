@@ -271,6 +271,128 @@ header {
     visibility: visible;
 }
 
+/*========== Home Section Css Start ==========*/
+
+.home-banner {
+    background: url(../images/home-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0;
+}
+
+.home-banner-search p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.home-banner-search-input input {
+    width: 70%;
+    border-radius: 25px;
+    height: 50px;
+}
+
+.home-banner-search-input {
+    position: relative;
+}
+
+.home-banner-search-logo {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    display: inline-block;
+    line-height: 0;
+}
+
+.home-banner-search-logo i {
+    font-size: 20px;
+    color: #e52d2d;
+}
+
+.home-banner-search p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.home-banner-search-input input {
+    width: 80%;
+    border-radius: 25px;
+    height: 50px;
+}
+
+.home-banner-search-input {
+    position: relative;
+}
+
+.home-banner-search-logo {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    display: inline-block;
+    line-height: 0;
+}
+
+.home-banner-search-logo i {
+    font-size: 20px;
+    color: #e52d2d;
+}
+
+.home-banner-cat-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.home-banner-cat-list {
+    margin-top: 20px;
+}
+
+.home-banner-cat-list ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.home-banner-cat-list ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.home-main {
+    padding: 50px 0;
+}
+
+.home-main-option-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-main-option-right {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.filter-option {
+    display: flex;
+    align-items: center;
+}
+
+.filter-option select {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.filter-option span {
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 20px;
+    white-space: pre;
+}
+/*========== Home Section Css End ==========*/
+
 /*========== Header Css End ==========*/
 
 /*========== Pricing Section Css Start ==========*/
@@ -519,6 +641,31 @@ header {
     width: 100%;
 }
 /*========== Login Section Css End ==========*/
+
+/*========== Category Page Css Start ==========*/
+
+.categoty-page-hero {
+    padding: 50px 0;
+}
+
+.categoty-page-hero-info h1 {
+    font-size: 78px;
+    font-weight: 500;
+    line-height: 117px;
+    color: #e52d2d;
+}
+
+.categoty-page-hero-info p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.categoty-page-hero-image {
+    text-align: right;
+}
+
+/*========== Category Page Css End ==========*/
 
 /*========== Coming Soon Section Css Start ==========*/
 
