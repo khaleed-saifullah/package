@@ -32,6 +32,7 @@ $(document).ready(function () {
 
     $(".header-menu-bar").on("click", function () {
         $(".haeder-bar-menu").toggleClass("open");
+        $(".header-menu-bar").toggleClass("dark");
     });
 
     $(".login-section-gallery").slick({
@@ -94,4 +95,29 @@ $(document).ready(function () {
             },
         ],
     });
+
+    $(".hide-filter").hide();
+    $(".second-filtering").hide();
+
+    $(".show-filter").on("click", function () {
+        $(".show-filter").hide();
+        $(".hide-filter").show();
+        $(".second-filtering").show();
+    });
+
+    $(".hide-filter").on("click", function () {
+        $(".show-filter").show();
+        $(".hide-filter").hide();
+        $(".second-filtering").hide();
+    });
+
+    $(".area-select").select2();
+    $(".package-select").select2();
+    $(".trust-select").select2();
+    $(".feature-select").select2();
+
+    $(".area-select-cat").select2();
+    $(".package-select-cat").select2();
+    $(".trust-select-cat").select2();
+    $(".feature-select-cat").select2();
 });
