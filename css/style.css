@@ -9,7 +9,7 @@ body {
 /*========== Header Css Start ==========*/
 
 .header-left {
-    width: 80%;
+    width: 70%;
     display: flex;
     align-items: center;
 }
@@ -24,10 +24,11 @@ header {
     padding-left: 30px;
     border-color: #ebebeb;
     color: #858585;
+    height: 36px;
 }
 
 .header-search {
-    width: 65%;
+    width: 64%;
     margin-left: 20px;
     position: relative;
 }
@@ -46,7 +47,7 @@ header {
 
 .header-search input:focus {
     box-shadow: unset;
-    border-color: #3d3d3d;
+    border-color: #e7e7e7;
 }
 
 .header-menu-bar.dark span {
@@ -117,7 +118,7 @@ header {
 }
 
 .header-right {
-    width: 20%;
+    width: 30%;
     display: flex;
     justify-content: flex-end;
 }
@@ -323,7 +324,7 @@ header {
     width: 80%;
     border-radius: 30px;
     height: 60px;
-    padding-left: 50px;
+    padding-left: 55px;
 }
 
 .home-banner-search-input {
@@ -1045,4 +1046,12 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .second-filtering-mid {
     margin-left: 36px;
+}
+
+.search-logo img {
+    width: 32%;
+}
+
+.home-banner-search-logo img {
+    width: 26%;
 }
