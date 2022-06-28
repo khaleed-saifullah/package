@@ -28,9 +28,9 @@
                         <img src="images/logo.png" alt="">
                     </div>
                     <div class="header-search">
-                        <input type="search" class="form-control" name="" id="">
+                        <input type="search" class="form-control clearable" name="" id="">
                         <div class="search-logo">
-                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <img src="images/search-icon.png" alt="">
                         </div>
                     </div>
                     <div class="header-left-menu">
@@ -117,7 +117,7 @@
                         <div class="home-banner-search-input">
                             <input type="search" class="form-control">
                             <div class="home-banner-search-logo">
-                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <img src="images/search-icon-big.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -172,7 +172,60 @@
         <div class="container">
             <div class="home-main-option">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
+                        <div class="home-main-option-left">
+                            <div class="home-main-option-select">
+                                <select class="area-select">
+                                    <option selected>Select Area</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="home-main-option-select">
+                                <select class="package-select">
+                                    <option selected>Package Type</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="home-main-option-mid">
+                            <div class="home-main-option-select">
+                                <select class="trust-select">
+                                    <option selected>Sort By Trust...</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="filter-option">
+                                <div class="show-filter">
+                                    Show Filter
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                                <div class="hide-filter">
+                                    Hide Filter
+                                    <i class="fa-solid fa-caret-up"></i>
+                                </div>
+                                <span>Filters applied**</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="home-main-option-select">
+                            <select class="feature-select">
+                                <option selected>Newest 1st</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-6">
                         <div class="home-main-option-left">
                             <div class="home-main-option-select">
                                 <select class="area-select">
@@ -222,12 +275,48 @@
                                 </select>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="second-filtering">
-                <div class="row">
-                    <div class="col-md-12">
+                <div class="row second-filtering-form">
+                    <div class="col-md-4">
+                        <div class="second-filtering-left">
+                            <div class="form-group">
+                                <label class="form-label">Keywords</label>
+                                <input type="text" class="form-control" id="keywords-search">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="second-filtering-mid">
+                            <div class="form-group">
+                                <label class="form-label">Price</label>
+                                <div class="price-filter">
+                                    <input type="text" class="form-control" id="min-price" placeholder="$ Min">
+                                    <input type="text" class="form-control" id="max-price" placeholder="$ Max">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="second-filtering-right">
+                            <div class="form-group">
+                                <label class="form-label">Brand Relationship</label>
+                                <div class="checkbox-filter">
+                                    <div class="form-check me-4">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Already Buy</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                        <label class="form-check-label" for="exampleCheck2">Favorite</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-12">
                         <div class="second-filtering-form">
                             <div class="form-group">
                                 <label class="form-label">Keywords</label>
@@ -254,7 +343,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
